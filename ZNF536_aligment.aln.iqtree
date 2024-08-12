@@ -1,0 +1,312 @@
+IQ-TREE 2.3.5 built Jun 26 2024
+
+Input file name: C:\Users\clari\Área de Trabalho\IQ-TREE-trial\ZNF536_aligment.aln
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 586726
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518â€“522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 50 sequences with 1040 amino-acid sites
+Number of constant sites: 551 (= 52.9808% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 551 (= 52.9808% of all sites)
+Number of parsimony informative sites: 374
+Number of distinct site patterns: 480
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: Q.bird+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.4451
+
+ Category  Relative_rate  Proportion
+  1         0.0237         0.2500
+  2         0.2146         0.2500
+  3         0.7758         0.2500
+  4         2.9859         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -10269.9736 (s.e. 282.2022)
+Unconstrained log-likelihood (without tree): -5274.3262
+Number of free parameters (#branches + #model parameters): 98
+Akaike information criterion (AIC) score: 20735.9473
+Corrected Akaike information criterion (AICc) score: 20756.5679
+Bayesian information criterion (BIC) score: 21220.7509
+
+Total tree length (sum of branch lengths): 1.4387
+Sum of internal branch lengths: 0.7316 (50.8491% of tree length)
+
+WARNING: 13 near-zero internal branches (<0.0010) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Neophocaena_asiaeorientalis_asiaeorientalis' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++**Neophocaena_asiaeorientalis_asiaeorientalis
+|
+|              +--Lipotes_vexillifer
+|           +**| (50)
+|           |  |  +--Kogia_breviceps
+|           |  +--| (98)
+|           |     +--Physeter_catodon
+|        +**| (54)
+|        |  |           +--Eubalaena_glacialis
+|        |  |        +**| (68)
+|        |  |        |  +--Balaenoptera_acutorostrata
+|        |  |     +**| (42)
+|        |  |     |  +**Balaenoptera_ricei
+|        |  |  +--| (72)
+|        |  |  |  +--Balaenoptera_musculus
+|        |  +--| (68)
+|        |     |                             +**Aptenodytes_forsteri
+|        |     |                          +--| (100)
+|        |     |                          |  +--Pygoscelis_adeliae
+|        |     |                       +--| (98)
+|        |     |                       |  |           +--Strigops_habroptila
+|        |     |                       |  |        +--| (65)
+|        |     |                       |  |        |  +--Nestor_notabilis
+|        |     |                       |  |     +--| (99)
+|        |     |                       |  |     |  +--Pezoporus_flaviventris
+|        |     |                       |  |  +**| (32)
+|        |     |                       |  |  |  |     +--Lonchura_striata_domestica
+|        |     |                       |  |  |  |  +--| (99)
+|        |     |                       |  |  |  |  |  +--Corvus_cornix_cornix
+|        |     |                       |  |  |  +--| (94)
+|        |     |                       |  |  |     |  +**Neopelma_chrysocephalum
+|        |     |                       |  |  |     +--| (97)
+|        |     |                       |  |  |        |  +--Manacus_vitellinus
+|        |     |                       |  |  |        +--| (99)
+|        |     |                       |  |  |           +**Lepidothrix_coronata
+|        |     |                       |  +**| (25)
+|        |     |                       |     +--Calypte_anna
+|        |     |  +--------------------| (100)
+|        |     |  |                    |   +-----------------------------Latimeria_chalumnae
+|        |     |  |                    +---| (99)
+|        |     |  |                        +---------------Rhinatrema_bivittatum
+|        |     +--| (97)
+|        |        |        +**Leopardus_geoffroyi
+|        |        |     +--| (100)
+|        |        |     |  +**Felis_catus
+|        |        |  +--| (100)
+|        |        |  |  |     +--Halichoerus_grypus
+|        |        |  |  |  +--| (100)
+|        |        |  |  |  |  |     +**Mirounga_leonina
+|        |        |  |  |  |  |  +--| (100)
+|        |        |  |  |  |  |  |  +**Mirounga_angustirostris
+|        |        |  |  |  |  +**| (53)
+|        |        |  |  |  |     +**Phoca_vitulina
+|        |        |  |  +--| (69)
+|        |        |  |     |         +**Canis_lupus_dingo
+|        |        |  |     |      +**| (100)
+|        |        |  |     |      |  +**Canis_lupus_familiaris
+|        |        |  |     |   +--| (95)
+|        |        |  |     |   |  +**Vulpes_lagopus
+|        |        |  |     +---| (100)
+|        |        |  |         +**Vulpes_vulpes
+|        |        +--| (94)
+|        |           |           +---Rhinolophus_ferrumequinum
+|        |           |      +----| (100)
+|        |           |      |    +--Hipposideros_armiger
+|        |           |   +--| (91)
+|        |           |   |  |  +----------Miniopterus_natalensis
+|        |           |   |  +--| (92)
+|        |           |   |     |               +--Myotis_daubentonii
+|        |           |   |     +---------------| (100)
+|        |           |   |                     +--Myotis_myotis
+|        |           +---| (100)
+|        |               |              +-----Rousettus_aegyptiacus
+|        |               +--------------| (100)
+|        |                              |  +**Pteropus_vampyrus
+|        |                              +--| (100)
+|        |                                 +--Pteropus_giganteus
+|     +**| (55)
+|     |  +--Mesoplodon_densirostris
+|  +--| (99)
+|  |  |  +**Lagenorhynchus_albirostris
+|  |  +**| (83)
+|  |     |        +--Lagenorhynchus_obliquidens
+|  |     |     +**| (78)
+|  |     |     |  +--Globicephala_melas
+|  |     |  +--| (98)
+|  |     |  |  |  +**Delphinus_delphis
+|  |     |  |  +--| (98)
+|  |     |  |     +**Tursiops_truncatus
+|  |     +**| (86)
+|  |        +--Orcinus_orca
++--| (99)
+|  |  +--Monodon_monoceros
+|  +**| (97)
+|     +**Delphinapterus_leucas
+|
+|  +**Phocoena_sinus
++--| (99)
+   +**Phocoena_phocoena
+
+Tree in newick format:
+
+(Neophocaena_asiaeorientalis_asiaeorientalis:0.0009448228,(((((Lipotes_vexillifer:0.0181979606,(Kogia_breviceps:0.0047327369,Physeter_catodon:0.0018875784)98:0.0018848438)50:0.0000010000,((((Eubalaena_glacialis:0.0085352316,Balaenoptera_acutorostrata:0.0018889485)68:0.0009351539,Balaenoptera_ricei:0.0009410188)42:0.0000010000,Balaenoptera_musculus:0.0104426165)72:0.0023386031,((((Aptenodytes_forsteri:0.0000010000,Pygoscelis_adeliae:0.0036422950)100:0.0055766855,((((Strigops_habroptila:0.0083644364,Nestor_notabilis:0.0118119846)65:0.0019223054,Pezoporus_flaviventris:0.0114136419)99:0.0097892844,((Lonchura_striata_domestica:0.0120053229,Corvus_cornix_cornix:0.0027673287)99:0.0036522077,(Neopelma_chrysocephalum:0.0000010000,(Manacus_vitellinus:0.0018257242,Lepidothrix_coronata:0.0009120654)99:0.0018259486)97:0.0018269740)94:0.0027399652)32:0.0000010000,Calypte_anna:0.0054692765)25:0.0000028792)98:0.0284715799,(Latimeria_chalumnae:0.2173891445,Rhinatrema_bivittatum:0.1207967121)99:0.0289324051)100:0.1575286834,(((Leopardus_geoffroyi:0.0000010000,Felis_catus:0.0009442394)100:0.0163438189,((Halichoerus_grypus:0.0028177489,((Mirounga_leonina:0.0009371389,Mirounga_angustirostris:0.0009466958)100:0.0056704329,Phoca_vitulina:0.0000010000)53:0.0000010000)100:0.0270480783,(((Canis_lupus_dingo:0.0009558272,Canis_lupus_familiaris:0.0000010000)100:0.0009563217,Vulpes_lagopus:0.0000010000)95:0.0010037646,Vulpes_vulpes:0.0009104876)100:0.0326564112)69:0.0022937930)100:0.0196875189,(((Rhinolophus_ferrumequinum:0.0318004972,Hipposideros_armiger:0.0287657922)100:0.0431924539,(Miniopterus_natalensis:0.0861726227,(Myotis_daubentonii:0.0119012414,Myotis_myotis:0.0030064612)100:0.1170918426)92:0.0273480973)91:0.0094403894,(Rousettus_aegyptiacus:0.0465265544,(Pteropus_vampyrus:0.0004027749,Pteropus_giganteus:0.0054966512)100:0.0135986019)100:0.1148666184)100:0.0300415721)94:0.0068260057)97:0.0193346731)68:0.0023871149)54:0.0009428909,Mesoplodon_densirostris:0.0047250100)55:0.0000010000,(Lagenorhynchus_albirostris:0.0009434253,(((Lagenorhynchus_obliquidens:0.0063100033,Globicephala_melas:0.0012481690)78:0.0009444273,(Delphinus_delphis:0.0000010000,Tursiops_truncatus:0.0000010000)98:0.0015828760)98:0.0012466439,Orcinus_orca:0.0018893455)86:0.0009437038)83:0.0009434192)99:0.0028457527,(Monodon_monoceros:0.0028480937,Delphinapterus_leucas:0.0009488940)97:0.0009441132)99:0.0028576218,(Phocoena_sinus:0.0009469000,Phocoena_phocoena:0.0000010000)99:0.0028513557);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -10270.002788
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Neophocaena_asiaeorientalis_asiaeorientalis
+|
+|              +--Lipotes_vexillifer
+|           +--| (50)
+|           |  |  +--Kogia_breviceps
+|           |  +--| (98)
+|           |     +--Physeter_catodon
+|        +--| (54)
+|        |  |           +--Eubalaena_glacialis
+|        |  |        +--| (68)
+|        |  |        |  +--Balaenoptera_acutorostrata
+|        |  |     +--| (42)
+|        |  |     |  +--Balaenoptera_ricei
+|        |  |  +--| (72)
+|        |  |  |  +--Balaenoptera_musculus
+|        |  +--| (68)
+|        |     |                                +--Aptenodytes_forsteri
+|        |     |                             +--| (100)
+|        |     |                             |  +--Pygoscelis_adeliae
+|        |     |                          +--| (45)
+|        |     |                          |  +--Calypte_anna
+|        |     |                       +--| (98)
+|        |     |                       |  |        +--Strigops_habroptila
+|        |     |                       |  |     +--| (65)
+|        |     |                       |  |     |  +--Nestor_notabilis
+|        |     |                       |  |  +--| (99)
+|        |     |                       |  |  |  +--Pezoporus_flaviventris
+|        |     |                       |  +--| (32)
+|        |     |                       |     |     +--Lonchura_striata_domestica
+|        |     |                       |     |  +--| (99)
+|        |     |                       |     |  |  +--Corvus_cornix_cornix
+|        |     |                       |     +--| (94)
+|        |     |                       |        |  +--Neopelma_chrysocephalum
+|        |     |                       |        +--| (97)
+|        |     |                       |           |  +--Manacus_vitellinus
+|        |     |                       |           +--| (99)
+|        |     |                       |              +--Lepidothrix_coronata
+|        |     |  +--------------------| (100)
+|        |     |  |                    |   +-----------------------------Latimeria_chalumnae
+|        |     |  |                    +---| (99)
+|        |     |  |                        +---------------Rhinatrema_bivittatum
+|        |     +--| (97)
+|        |        |        +--Leopardus_geoffroyi
+|        |        |     +--| (100)
+|        |        |     |  +--Felis_catus
+|        |        |  +--| (100)
+|        |        |  |  |     +--Halichoerus_grypus
+|        |        |  |  |  +--| (100)
+|        |        |  |  |  |  |     +--Mirounga_leonina
+|        |        |  |  |  |  |  +--| (100)
+|        |        |  |  |  |  |  |  +--Mirounga_angustirostris
+|        |        |  |  |  |  +--| (53)
+|        |        |  |  |  |     +--Phoca_vitulina
+|        |        |  |  +--| (69)
+|        |        |  |     |         +--Canis_lupus_dingo
+|        |        |  |     |      +--| (100)
+|        |        |  |     |      |  +--Canis_lupus_familiaris
+|        |        |  |     |   +--| (95)
+|        |        |  |     |   |  +--Vulpes_lagopus
+|        |        |  |     +---| (100)
+|        |        |  |         +--Vulpes_vulpes
+|        |        +--| (94)
+|        |           |           +---Rhinolophus_ferrumequinum
+|        |           |      +----| (100)
+|        |           |      |    +--Hipposideros_armiger
+|        |           |   +--| (91)
+|        |           |   |  |  +----------Miniopterus_natalensis
+|        |           |   |  +--| (92)
+|        |           |   |     |               +--Myotis_daubentonii
+|        |           |   |     +---------------| (100)
+|        |           |   |                     +--Myotis_myotis
+|        |           +---| (100)
+|        |               |              +-----Rousettus_aegyptiacus
+|        |               +--------------| (100)
+|        |                              |  +--Pteropus_vampyrus
+|        |                              +--| (100)
+|        |                                 +--Pteropus_giganteus
+|     +--| (55)
+|     |  +--Mesoplodon_densirostris
+|  +--| (99)
+|  |  |  +--Lagenorhynchus_albirostris
+|  |  +--| (83)
+|  |     |        +--Lagenorhynchus_obliquidens
+|  |     |     +--| (78)
+|  |     |     |  +--Globicephala_melas
+|  |     |  +--| (98)
+|  |     |  |  |  +--Delphinus_delphis
+|  |     |  |  +--| (98)
+|  |     |  |     +--Tursiops_truncatus
+|  |     +--| (86)
+|  |        +--Orcinus_orca
++--| (99)
+|  |  +--Monodon_monoceros
+|  +--| (97)
+|     +--Delphinapterus_leucas
+|
+|  +--Phocoena_sinus
++--| (99)
+   +--Phocoena_phocoena
+
+
+Consensus tree in newick format: 
+
+(Neophocaena_asiaeorientalis_asiaeorientalis:0.0009456083,(((((Lipotes_vexillifer:0.0182010991,(Kogia_breviceps:0.0047339268,Physeter_catodon:0.0018892215)98:0.0018864393)50:0.0000028792,((((Eubalaena_glacialis:0.0085374335,Balaenoptera_acutorostrata:0.0018906402)68:0.0009359403,Balaenoptera_ricei:0.0009418679)42:0.0000028792,Balaenoptera_musculus:0.0104436647)72:0.0023401971,(((((Aptenodytes_forsteri:0.0000028792,Pygoscelis_adeliae:0.0036429430)100:0.0055801044,Calypte_anna:0.0054707266)45:0.0000028792,(((Strigops_habroptila:0.0083660883,Nestor_notabilis:0.0118137589)65:0.0019234503,Pezoporus_flaviventris:0.0114154620)99:0.0097910758,((Lonchura_striata_domestica:0.0120071836,Corvus_cornix_cornix:0.0027686942)99:0.0036525419,(Neopelma_chrysocephalum:0.0000028792,(Manacus_vitellinus:0.0018272839,Lepidothrix_coronata:0.0009128422)99:0.0018275110)97:0.0018288724)94:0.0027412494)32:0.0000028792)98:0.0284792820,(Latimeria_chalumnae:0.2174343207,Rhinatrema_bivittatum:0.1208288858)99:0.0289176603)100:0.1575593437,(((Leopardus_geoffroyi:0.0000028792,Felis_catus:0.0009456747)100:0.0163501651,((Halichoerus_grypus:0.0028189294,((Mirounga_leonina:0.0009379406,Mirounga_angustirostris:0.0009475226)100:0.0056734329,Phoca_vitulina:0.0000028792)53:0.0000028792)100:0.0270602478,(((Canis_lupus_dingo:0.0009566576,Canis_lupus_familiaris:0.0000028792)100:0.0009571565,Vulpes_lagopus:0.0000028792)95:0.0010046332,Vulpes_vulpes:0.0009108408)100:0.0326708461)69:0.0022928617)100:0.0196968120,(((Rhinolophus_ferrumequinum:0.0318109738,Hipposideros_armiger:0.0287693067)100:0.0432060407,(Miniopterus_natalensis:0.0862006438,(Myotis_daubentonii:0.0119033408,Myotis_myotis:0.0030080679)100:0.1171243748)92:0.0273435544)91:0.0094417422,(Rousettus_aegyptiacus:0.0465414148,(Pteropus_vampyrus:0.0004015941,Pteropus_giganteus:0.0054994728)100:0.0136044965)100:0.1149058994)100:0.0300540281)94:0.0068234250)97:0.0193398039)68:0.0023866995)54:0.0009436852,Mesoplodon_densirostris:0.0047262051)55:0.0000028792,(Lagenorhynchus_albirostris:0.0009442222,(((Lagenorhynchus_obliquidens:0.0063112239,Globicephala_melas:0.0012476769)78:0.0009454120,(Delphinus_delphis:0.0000028792,Tursiops_truncatus:0.0000028792)98:0.0015838164)98:0.0012471080,Orcinus_orca:0.0018909765)86:0.0009446393)83:0.0009442173)99:0.0028470455,(Monodon_monoceros:0.0028493893,Delphinapterus_leucas:0.0009497075)97:0.0009449119)99:0.0028589063,(Phocoena_sinus:0.0009477065,Phocoena_phocoena:0.0000028792)99:0.0028526362);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t C:\Users\clari\Área de Trabalho\IQ-TREE-trial\ZNF536_aligment.aln.treefile -m "Q.bird+G4{0.445096}" --length 1040
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s C:\Users\clari\Área de Trabalho\IQ-TREE-trial\ZNF536_aligment.aln --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s C:\Users\clari\Área de Trabalho\IQ-TREE-trial\ZNF536_aligment.aln --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Jul 22 02:00:20 2024
+Total CPU time used: 15.125 seconds (0h:0m:15s)
+Total wall-clock time used: 70.1026223 seconds (0h:1m:10s)
+

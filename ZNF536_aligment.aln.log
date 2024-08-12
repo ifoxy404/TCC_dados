@@ -1,0 +1,162 @@
+IQ-TREE multicore version 2.3.5 for Windows 64-bit built Jun 26 2024
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    PC_Clari (AVX2, FMA3, 15 GB RAM)
+Command: C:\Users\clari\햞ea de Trabalho\IQ-TREE-trial\iqtree2.exe -s C:\Users\clari\햞ea de Trabalho\IQ-TREE-trial\ZNF536_aligment.aln -m Q.bird+G4 -bb 1000 -redo
+Seed:    586726 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jul 22 01:59:10 2024
+Kernel:  AVX+FMA - 1 threads (12 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 12 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file C:\Users\clari\햞ea de Trabalho\IQ-TREE-trial\ZNF536_aligment.aln ... Fasta format detected
+Reading fasta file: done in 0.0005672 secs
+Alignment most likely contains protein sequences
+Alignment has 50 sequences with 1040 columns, 480 distinct patterns
+374 parsimony-informative, 115 singleton sites, 551 constant sites
+                                             Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 7.13e-005 secs
+   1  Neophocaena_asiaeorientalis_asiaeorientalis    0.00%    passed    100.00%
+   2  Lipotes_vexillifer                             0.00%    passed    100.00%
+   3  Lagenorhynchus_albirostris                     0.00%    passed    100.00%
+   4  Lagenorhynchus_obliquidens                     0.00%    passed    100.00%
+   5  Delphinus_delphis                              0.00%    passed    100.00%
+   6  Globicephala_melas                             0.00%    passed    100.00%
+   7  Orcinus_orca                                   0.00%    passed    100.00%
+   8  Tursiops_truncatus                             0.00%    passed    100.00%
+   9  Phocoena_sinus                                 0.00%    passed    100.00%
+  10  Monodon_monoceros                              0.00%    passed    100.00%
+  11  Delphinapterus_leucas                          0.00%    passed    100.00%
+  12  Kogia_breviceps                                0.00%    passed    100.00%
+  13  Physeter_catodon                               0.00%    passed    100.00%
+  14  Mesoplodon_densirostris                        0.00%    passed    100.00%
+  15  Eubalaena_glacialis                            0.00%    passed    100.00%
+  16  Balaenoptera_ricei                             0.00%    passed    100.00%
+  17  Balaenoptera_acutorostrata                     0.00%    passed    100.00%
+  18  Balaenoptera_musculus                          0.00%    passed    100.00%
+  19  Phocoena_phocoena                              0.00%    passed    100.00%
+  20  Aptenodytes_forsteri                           0.00%    failed      2.32%
+  21  Pygoscelis_adeliae                             0.00%    failed      2.53%
+  22  Strigops_habroptila                            0.00%    passed     10.89%
+  23  Nestor_notabilis                               0.00%    passed      6.52%
+  24  Pezoporus_flaviventris                         0.00%    passed     15.47%
+  25  Calypte_anna                                   0.00%    failed      4.34%
+  26  Lonchura_striata_domestica                     0.00%    failed      4.76%
+  27  Corvus_cornix_cornix                           0.00%    failed      4.94%
+  28  Neopelma_chrysocephalum                        0.00%    failed      3.78%
+  29  Manacus_vitellinus                             0.00%    failed      2.57%
+  30  Lepidothrix_coronata                           0.00%    failed      3.16%
+  31  Leopardus_geoffroyi                            0.00%    passed    100.00%
+  32  Felis_catus                                    0.00%    passed    100.00%
+  33  Halichoerus_grypus                             0.00%    passed    100.00%
+  34  Mirounga_leonina                               0.00%    passed    100.00%
+  35  Mirounga_angustirostris                        0.00%    passed    100.00%
+  36  Phoca_vitulina                                 0.00%    passed    100.00%
+  37  Canis_lupus_dingo                              0.00%    passed     98.90%
+  38  Canis_lupus_familiaris                         0.00%    passed     98.56%
+  39  Vulpes_lagopus                                 0.00%    passed     99.03%
+  40  Vulpes_vulpes                                  0.00%    passed     99.11%
+  41  Rhinolophus_ferrumequinum                      0.00%    passed     87.00%
+  42  Rousettus_aegyptiacus                          0.00%    failed      0.00%
+  43  Pteropus_vampyrus                              0.00%    failed      0.49%
+  44  Miniopterus_natalensis                         0.10%    passed     31.06%
+  45  Hipposideros_armiger                           0.00%    passed     82.24%
+  46  Myotis_daubentonii                             0.00%    failed      0.01%
+  47  Myotis_myotis                                  0.00%    failed      0.03%
+  48  Pteropus_giganteus                             0.00%    failed      0.40%
+  49  Latimeria_chalumnae                            0.00%    passed     15.77%
+  50  Rhinatrema_bivittatum                          0.00%    passed     20.40%
+****  TOTAL                                          0.00%  13 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Tursiops_truncatus is identical to Delphinus_delphis but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.009 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 586726)...
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+
+NOTE: 17 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -10359.384
+2. Current log-likelihood: -10275.610
+3. Current log-likelihood: -10274.497
+Optimal log-likelihood: -10274.469
+Gamma shape alpha: 0.446
+Parameters optimization took 3 rounds (0.349 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0928027 secs using 16.84% CPU
+Computing ML distances took 0.097164 sec (of wall-clock time) 0.031250 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 6.47e-005 secs
+Computing RapidNJ tree took 0.001092 sec (of wall-clock time) 0.000000 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -10281.632
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.546 second
+Computing log-likelihood of 98 initial trees ... 2.143 seconds
+Current best score: -10272.762
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -10269.974
+BETTER TREE FOUND at iteration 3: -10269.974
+Iteration 10 / LogL: -10272.370 / Time: 0h:0m:5s
+Iteration 20 / LogL: -10272.366 / Time: 0h:0m:8s
+Finish initializing candidate tree set (8)
+Current best tree score: -10269.974 / CPU time: 8.058
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -10269.977 / Time: 0h:0m:15s (0h:0m:38s left)
+Iteration 40 / LogL: -10285.227 / Time: 0h:0m:23s (0h:0m:38s left)
+Iteration 50 / LogL: -10291.284 / Time: 0h:0m:31s (0h:0m:33s left)
+Log-likelihood cutoff on original alignment: -10310.147
+Iteration 60 / LogL: -10269.981 / Time: 0h:0m:38s (0h:0m:28s left)
+Iteration 70 / LogL: -10269.978 / Time: 0h:0m:46s (0h:0m:22s left)
+Iteration 80 / LogL: -10269.979 / Time: 0h:0m:54s (0h:0m:15s left)
+Iteration 90 / LogL: -10303.548 / Time: 0h:1m:1s (0h:0m:8s left)
+Iteration 100 / LogL: -10269.982 / Time: 0h:1m:7s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -10311.010
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+TREE SEARCH COMPLETED AFTER 104 ITERATIONS / Time: 0h:1m:9s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -10269.974
+Optimal log-likelihood: -10269.974
+Gamma shape alpha: 0.445
+Parameters optimization took 1 rounds (0.077 sec)
+BEST SCORE FOUND : -10269.974
+Creating bootstrap support values...
+Split supports printed to NEXUS file C:\Users\clari\햞ea de Trabalho\IQ-TREE-trial\ZNF536_aligment.aln.splits.nex
+Total tree length: 1.439
+
+Total number of iterations: 104
+CPU time used for tree search: 14.781 sec (0h:0m:14s)
+Wall-clock time used for tree search: 69.158 sec (0h:1m:9s)
+Total CPU time used: 15.125 sec (0h:0m:15s)
+Total wall-clock time used: 69.967 sec (0h:1m:9s)
+
+Computing bootstrap consensus tree...
+Reading input file C:\Users\clari\햞ea de Trabalho\IQ-TREE-trial\ZNF536_aligment.aln.splits.nex...
+50 taxa and 272 splits.
+Consensus tree written to C:\Users\clari\햞ea de Trabalho\IQ-TREE-trial\ZNF536_aligment.aln.contree
+Reading input trees file C:\Users\clari\햞ea de Trabalho\IQ-TREE-trial\ZNF536_aligment.aln.contree
+Log-likelihood of consensus tree: -10270.003
+
+Analysis results written to: 
+  IQ-TREE report:                C:\Users\clari\햞ea de Trabalho\IQ-TREE-trial\ZNF536_aligment.aln.iqtree
+  Maximum-likelihood tree:       C:\Users\clari\햞ea de Trabalho\IQ-TREE-trial\ZNF536_aligment.aln.treefile
+  Likelihood distances:          C:\Users\clari\햞ea de Trabalho\IQ-TREE-trial\ZNF536_aligment.aln.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          C:\Users\clari\햞ea de Trabalho\IQ-TREE-trial\ZNF536_aligment.aln.splits.nex
+  Consensus tree:                C:\Users\clari\햞ea de Trabalho\IQ-TREE-trial\ZNF536_aligment.aln.contree
+  Screen log file:               C:\Users\clari\햞ea de Trabalho\IQ-TREE-trial\ZNF536_aligment.aln.log
+
+Date and Time: Mon Jul 22 02:00:20 2024
